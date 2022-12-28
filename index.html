@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>HyperText Markup Language</title>
+  </head>
+  <body>
+    <header>
+      <h1>HyperText Markup Language</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#introduction">Introduction</a></li>
+	<li><a href="#history">History</a></li>
+	<ul>
+	  <li><a href="#development">Development</a></li>
+	  <li><a href="#timeline">HTML versions timeline</a></li>
+	  <li><a href="#transition">Transition of HTML Publication to WHATWG</a></li>
+	</ul>
+	<li><a href="#markup">Markup</a></li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <h2 id="introduction">Introduction</h2>
+        <p align="justify">
+	  The <b>HyperText Markup Language</b> or <b>HTML</b> is the standard <em>markup language</em> for documents designed to be displayed in a <em>web browser</em>. 
+	  It can be assisted by technologies such as <em>Cascading Style Sheets</em> (CSS) and <em>scripting languages</em> such as <em>JavaScript</em>.
+	</p>
+	<p align="justify">
+	  <em>Web browsers</em> receive HTML documents from a <em>web server</em> or from local storage and <em>render</em> the documents into multimedia web pages. 
+	  HTML describes the structure of a <em>web page semantically</em> and originally included cues for the appearance of the document.
+	</p>
+	<p align="justify">
+	  <em>HTML elements</em> are the building blocks of HTML pages. With HTML constructs, <em>images</em> and other objects such as <em>interactive forms</em> may 
+	  be embedded into the rendered page. HTML provides a means to create <em>structured documents</em> by denoting structural <em>semantics</em> for text 
+	  such as headings, paragraphs, lists, <em>links</em>, quotes, and other items. HTML elements are delineated by tags, written using <em>angle brackets</em>. 
+	  Tags such as <code>&ltimg /&gt</code> and <code>&ltinput /&gt</code> directly introduce content into the page. Other tags such as <code>&ltp&gt</code> 
+	  surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags but use them to 
+	  interpret the content of the page.
+	</p>
+	<p align="justify">
+	  HTML can embed programs written in a <em>scripting language</em> such as <em>JavaScript</em>, which affects the behavior and content of web pages.
+	  The inclusion of CSS defines the look and layout of content. The <em>World Wide Web Consortium</em> (W3C), former maintainer of the HTML 
+	  and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.[2] A form of HTML, known as 
+	  <em>HTML5</em>, is used to display video and audio, primarily using the <code>&ltcanvas&gt</code> element, in collaboration with javascript. 
+        </p>
+
+	<h2 id="history">History</h2>
+	<h3 id="development">Development</h3>
+	<p align="justify">
+	  In 1980, <em>physicist Tim Berners-Lee</em>, a contractor at <em>CERN</em>, proposed and prototyped <em>ENQUIRE</em>, a system for CERN researchers to use 
+	  and share documents. In 1989, Berners-Lee wrote a memo proposing an <em>Internet</em>-based <em>hypertext</em> system. Berners-Lee specified HTML and wrote 
+	  the browser and server software in late 1990. That year, Berners-Lee and CERN <em>data systems</em> engineer <em>Robert Cailliau</em> collaborated on a 
+	  joint request for funding, but the project was not formally adopted by CERN. In his personal notes from 1990 he listed "some of the many areas in which 
+	  hypertext is used" and put an <em>encyclopedia</em> first.
+	</p>
+	<p align="justify">
+	  The first publicly available description of HTML was a document called <em>"HTML Tags"</em>, first mentioned on the Internet by Tim Berners-Lee in late 1991. 
+	  It describes 18 elements comprising the initial, relatively simple design of HTML. Except for the hyperlink tag, these were strongly influenced by 
+	  <em>SGMLguid</em>, an in-house <em>Standard Generalized Markup Language</em> (SGML)-based documentation format at CERN. Eleven of these elements still exist 
+	  in HTML 4.
+	<p>
+	<p align="justify">
+	  HTML is a <em>markup language</em> that <em>web browsers</em> use to interpret and <em>compose text</em>, images, and other material into visual or audible 
+	  web pages. Default characteristics for every item of HTML markup are defined in the browser, and these characteristics can be altered or enhanced by the web 
+	  page designer's additional use of <em>CSS</em>. Many of the text elements are found in the 1988 ISO technical report TR 9537 Techniques for using SGML, 
+	  which in turn covers the features of early text formatting languages such as that used by the <em>RUNOFF command</em> developed in the early 1960s for the 
+	  <em>CTSS</em> (Compatible Time-Sharing System) operating system: these formatting commands were derived from the commands used by typesetters to manually 
+	  format documents. However, the SGML concept of generalized markup is based on elements (nested annotated ranges with attributes) rather than merely print 
+	  effects, with also the separation of structure and markup; HTML has been progressively moved in this direction with CSS.
+	</p>
+	<p align="justify">
+	  Berners-Lee considered HTML to be an application of SGML. It was formally defined as such by the <em>Internet Engineering Task Force</em> (IETF) with the 
+	  mid-1993 publication of the first proposal for an HTML specification, the "Hypertext Markup Language (HTML)" Internet Draft by Berners-Lee and <em>Dan 
+	  Connolly</em>, which included an SGML <em>Document type definition</em> to define the grammar. The draft expired after six months, but was notable for 
+	  its acknowledgment of the <em>NCSA Mosaic</em> browser's custom tag for embedding in-line images, reflecting the IETF's philosophy of basing standards 
+	  on successful prototypes. Similarly, <em>Dave Raggett</em>'s competing Internet-Draft, "HTML+ (Hypertext Markup Format)", from late 1993, suggested 
+	  standardizing already-implemented features like tables and fill-out forms.
+	</p>
+	<p align="justify">
+	  After the HTML and HTML+ drafts expired in early 1994, the IETF created an HTML Working Group, which in 1995 completed "HTML 2.0", the first HTML 
+	  specification intended to be treated as a standard against which future implementations should be based.
+	</p>
+	<p align="justify">
+	  Further development under the auspices of the IETF was stalled by competing interests. Since 1996, the HTML specifications have been maintained, with input 
+	  from commercial software vendors, by the <em>World Wide Web Consortium</em> (W3C). However, in 2000, HTML also became an international standard (<em>ISO</em>
+	  /<em>IEC</em> 15445:2000). HTML 4.01 was published in late 1999, with further errata published through 2001. In 2004, development began on HTML5 in the 
+	  <em>Web Hypertext Application Technology Working Group</em> (WHATWG), which became a joint deliverable with the W3C in 2008, and was completed and 
+	  standardized on 28 October 2014.
+	</p>
+	<h3 id="timeline">HTML versions timeline</h3>
+	<h4>HTML 2</h4>
+	<p style="margin-left:10px"><b>November 24, 1995</b></p>
+	<p style="margin-left:20px">HTML 2.0 was published as <em>RFC 1866</em>. Supplemental <em>RFCs</em> added capabilities:</p>
+	<p style="margin-left:20px">
+	  <ul>
+	    <li>November 25, 1995: <em>RFC 1867</em> (form-based file upload)</li>
+	    <li>May 1996: <em>RFC 1942</em> (tables)</li>
+	    <li>August 1996: <em>RFC 1980</em> (client-side image maps)</li>
+	    <li>January 1997: <em>RFC 2070</em> (<em>internationalization</em>)</li>
+	  </ul> 
+	</p>
+	<h4>HTML 3</h4>
+	<p style="margin-left:10px"><b>January 14, 1997</b></p>
+	<p style="margin-left: 20px" align="justify">
+	  HTML 3.2 was published as a <em>W3C Recommendation</em>. It was the first version developed and standardized exclusively by the W3C, as the IETF had closed 
+	  its HTML Working Group on September 12, 1996.
+	</p>
+	<p style="margin-left:20px" align="justify">
+	  Initially code-named "Wilbur", HTML 3.2 dropped math formulas entirely, reconciled overlap among various proprietary extensions and adopted most of 
+	  <em>Netscape</em>'s visual markup tags. Netscape's <em>blink element</em> and <em>Microsoft</em>'s <em>marquee element</em> were omitted due to a 
+	  mutual agreement between the two companies. A markup for mathematical formulas similar to that in HTML was not standardized until 14 months later 
+	  in <em>MathML</em>.
+	</p>
+	<h4>HTML 4</h4>
+	<p style="margin-left:10px"><b>December 18, 1997</b></p>
+	<p style="margin-left: 20px">
+	  HTML 4.0 was published as a W3C Recommendation. It offers three variations:
+	  <ul>
+	    <li>Strict, in which deprecated elements are forbidden</li>
+	    <li>Transitional, in which deprecated elements are allowed</li>
+	    <li>Frameset, in which mostly only frame related elements are allowed.</li>
+	  </ul>
+	</p>
+	<p style="margin-left: 20px" align="justify">
+	  Initially code-named "Cougar", HTML 4.0 adopted many browser-specific element types and attributes, but at the same time sought to phase out Netscape's 
+	  visual markup features by marking them as <em>deprecated</em> in favor of style sheets. HTML 4 is an SGML application conforming to ISO 8879 – SGML.
+	</p>
+	<p style="margin-left:10px"><b>April 24, 1998</b></p>
+	<p style="margin-left: 20px" align="justify">
+	  HTML 4.0 was reissued with minor edits without incrementing the version number.
+	</p>
+	<p style="margin-left:10px"><b>December 24, 1999</b></p>
+	<p style="margin-left: 20px" align="justify">
+	  HTML 4.01 was published as a W3C Recommendation. It offers the same three variations as HTML 4.0 and its last <em>errata</em> were published on May 12, 2001.
+	</p>
+	<p style="margin-left:10px"><b>May 2000</b></p>
+	<p style="margin-left: 20px" align="justify">
+	  ISO/IEC 15445:2000 ("ISO HTML", based on HTML 4.01 Strict) was published as an ISO/IEC international standard. In the ISO this standard falls in the domain 
+	  of the <em>ISO/IEC JTC 1/SC 34</em> (ISO/IEC Joint Technical Committee 1, Subcommittee 34 – Document description and processing languages). After HTML 4.01, 
+	  there was no new version of HTML for many years as the development of the parallel, XML-based language XHTML occupied the W3C's HTML Working Group through the 
+	  early and mid-2000s.
+	</p>
+	<h4>HTML 5</h4>
+	<p style="margin-left:10px"><b>October 28, 2014</b></p>
+	<p style="margin-left: 20px">
+	  HTML5 was published as a W3C Recommendation.
+	</p>
+	<p style="margin-left:10px"><b>November 1, 20164</b></p>
+	<p style="margin-left: 20px">
+	  HTML 5.1 was published as a W3C Recommendation.
+	</p>
+	<p style="margin-left:10px"><b>December 14, 2017</b></p>
+	<p style="margin-left: 20px">
+	  HTML 5.2 was published as a W3C Recommendation.
+	</p>
+	<h3 id="transition">Transition of HTML Publication to WHATWG</h3>
+	<p align="justify">
+	  On 28 May 2019, the W3C announced that WHATWG would be the sole publisher of the HTML and DOM standards. The W3C and WHATWG had been publishing competing 
+	  standards since 2012. While the W3C standard was identical to the WHATWG in 2007 the standards have since progressively diverged due to different design 
+	  decisions. The WHATWG "Living Standard" had been the de facto web standard for some time.
+	</p>
+
+	<h2 id="markup">Markup</h2>
+        <p align="justify">
+	  HTML markup consists of several key components, including those called tags (and their attributes), character-based data types, character references and 
+	  entity references. HTML tags most commonly come in pairs like <code>&lth1&gt</code> and <code>&lt/h1&gt</code>, although some represent empty elements 
+	  and so are unpaired, for example <code>&ltimg&gt</code>. The first tag in such a pair is the start tag, and the second is the end tag (they are also 
+	  called opening tags and closing tags).
+	</p>
+	<p align="justify">
+	  Another important component is the HTML <em>document type declaration</em>, which triggers <em>standards mode</em> rendering.
+	</p>
+	<p align="justify">
+	  The following is an example of the classic <em>"Hello, World!" program</em>:
+	</p>
+	<code>
+	  <p style="margin-left:5px">&lt!DOCTYPE html&gt</p>
+	  <p style="margin-left:5px">&lthtml&gt</p>
+	  <p style="margin-left:10px">&lthead&gt</p>
+	  <p style="margin-left:15px">&lttitle&gtThis is a title&lt/title&gt</p>
+	  <p style="margin-left:10px">&lt/head&gt</p>
+	  <p style="margin-left:10px">&ltbody&gt</p>
+	  <p style="margin-left:15px">&ltdiv&gt</p>
+	  <p style="margin-left:20px">&ltp&gtHello world!&lt/p&gt</p>
+	  <p style="margin-left:15px">&lt/div&gt</p>
+	  <p style="margin-left:10px">&lt/body&gt</p>
+	  <p style="margin-left:5px">&lt/html&gt</p>
+	</code>
+	<p align="justify">
+	  The text between <code>&lthtml&gt</code> and <code>&lt/html&gt</code> describes the web page, and the text between <code>&ltbody&gt</code> and 
+	  <code>&lt/body&gt</code> is the visible page content. The markup text <code>&lttitle&gtThis is a title&lt/title&gt</code> defines the browser page 
+	  title shown on <em>browser tabs</em> and <em>window</em> titles and the tag <code>&ltdiv&gt</code> defines a division of the page used for easy styling. 
+	  Between <code>&lthead&gt</code> and <code>&lt/head&gt</code>, a <code>&ltmeta&gt</code> element can be used to define webpage metadata. 
+	</p>
+	</p>
+	<p align="justify">
+	  The Document Type Declaration &lt!DOCTYPE html&gt is for HTML5. If a declaration is not included, various browsers will revert to "<em>quirks mode</em>" 
+	  for rendering.
+	</p>
+      </article>
+    </main>
+    <footer>
+      <p>
+	The text content of this site was taken from the <a href="https://en.wikipedia.org/wiki/HTML">Wikipedia article on HTML</a> under the 
+	<a href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons 
+	Attribution-ShareAlike License<a>.
+      </p>
+    </footer>
+  </body>
+</html>
